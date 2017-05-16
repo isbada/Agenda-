@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B0B066C11E79786700C2D9C6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0B066C01E79786700C2D9C6 /* main.cpp */; };
+		B0B066C11E79786700C2D9C6 /* Agenda.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0B066C01E79786700C2D9C6 /* Agenda.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,13 @@
 
 /* Begin PBXFileReference section */
 		B0B066BD1E79786700C2D9C6 /* Agenda */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Agenda; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0B066C01E79786700C2D9C6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B0B066C01E79786700C2D9C6 /* Agenda.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Agenda.cpp; sourceTree = "<group>"; };
+		B0B066C71E797E1400C2D9C6 /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		B0B066C91E7985CE00C2D9C6 /* Meeting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Meeting.h; sourceTree = "<group>"; };
+		B0B066CA1E79A04300C2D9C6 /* Storage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Storage.h; sourceTree = "<group>"; };
+		B0B066CB1E7A615000C2D9C6 /* Date.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Date.h; sourceTree = "<group>"; };
+		B0B066CC1E7A85D000C2D9C6 /* AgendaService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AgendaService.h; sourceTree = "<group>"; };
+		B0B066CD1E7AE5CB00C2D9C6 /* AgendaUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AgendaUI.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,13 @@
 		B0B066BF1E79786700C2D9C6 /* Agenda */ = {
 			isa = PBXGroup;
 			children = (
-				B0B066C01E79786700C2D9C6 /* main.cpp */,
+				B0B066C01E79786700C2D9C6 /* Agenda.cpp */,
+				B0B066C71E797E1400C2D9C6 /* User.h */,
+				B0B066C91E7985CE00C2D9C6 /* Meeting.h */,
+				B0B066CA1E79A04300C2D9C6 /* Storage.h */,
+				B0B066CB1E7A615000C2D9C6 /* Date.h */,
+				B0B066CC1E7A85D000C2D9C6 /* AgendaService.h */,
+				B0B066CD1E7AE5CB00C2D9C6 /* AgendaUI.h */,
 			);
 			path = Agenda;
 			sourceTree = "<group>";
@@ -119,7 +131,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0B066C11E79786700C2D9C6 /* main.cpp in Sources */,
+				B0B066C11E79786700C2D9C6 /* Agenda.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +258,7 @@
 				B0B066C61E79786700C2D9C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
